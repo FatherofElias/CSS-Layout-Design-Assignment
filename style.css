@@ -1,0 +1,72 @@
+:root {
+    --font-family: Arial, sans-serif;
+    --line-height: 1.6;
+    --primary-bg-color: #333;
+    --primary-text-color: white;
+    --secondary-bg-color: #f4f4f4;
+    --padding: 20px;
+    --margin: 10px 0;
+    --border: 1px solid #ddd;
+    --header-bg-image: url("background.jfif");
+    --header-font-size: 2em;
+    --header-font-weight: bold;
+}
+
+/* Basic Styles */
+body {
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+}
+
+/* Header */
+header {
+    background-image: var(--header-bg-image);
+    background-size: cover;
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: var(--padding);
+}
+
+header h1 {
+    font-size: var(--header-font-size);
+    font-weight: var(--header-font-weight);
+}
+
+/* Navigation */
+nav {
+    background-color: var(--primary-bg-color);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+    color: var(--primary-text-color);
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+}
+
+main .content {
+    background-color: var(--secondary-bg-color);
+    margin: var(--margin);
+    padding: var(--padding);
+    border: var(--border);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    padding: 10px 0;
+}

@@ -37,10 +37,20 @@ body {
     padding: var(--padding);
 }
 
+.main-content img {
+    width: 100%;
+    height: auto;
+}
+
+
 .sidebar {
     grid-area: sidebar;
     background-color: var(--secondary-color);
     padding: var(--padding);
+}
+.sidebar img {
+    width: 150%;
+    height: auto;
 }
 
 .footer {
@@ -49,11 +59,6 @@ body {
     color: var(--text-color);
     text-align: center;
     padding: var(--padding);
-}
-
-img {
-    width: 100%;
-    height: auto;
 }
 
 

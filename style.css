@@ -4,6 +4,8 @@
     --primary-bg-color: #333;
     --primary-text-color: white;
     --secondary-bg-color: #f4f4f4;
+    --hover-bg-color: #555;
+    --hover-text-color: #ff0;
     --padding: 20px;
     --margin: 10px 0;
     --border: 1px solid #ddd;
@@ -51,6 +53,18 @@ nav ul li {
     color: var(--primary-text-color);
 }
 
+nav ul li a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+    border-radius: 5px;
+}
+
 
 main {
     display: flex;
@@ -96,6 +110,18 @@ footer {
     color: var(--primary-text-color);
     padding: 10px 0;
 }
+footer div a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer div a:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+    border-radius: 5px;
+}
+
 
 
 @media (max-width: 600px) {
